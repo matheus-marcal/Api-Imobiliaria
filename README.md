@@ -7,11 +7,13 @@ O projeto leva a ideia de fazer uma api rest para uma imobiliaria, de forma que 
 #### Versões
 
 Nodejs: 14.15.1
+
 LoopBack4: 2.4.2
 
 #### Dependencias
 
 Dotenv : \`npm i dotenv\`
+
 TSC-Watch : \`npm i tsc-watch@2.4.0\`
 
 #### Execução
