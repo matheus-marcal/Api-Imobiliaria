@@ -21,6 +21,19 @@ export class UserCredencial extends Entity {
   })
   password: string;
 
+  @property({
+    type: 'string',
+    required: true,
+  })
+  CPF: string;
+  
+  @property({
+    type: 'string',
+    required: true,
+  })
+  telefone: string;
+
+
 
   constructor(data?: Partial<UserCredencial>) {
     super(data);
@@ -33,6 +46,16 @@ export class Userfront extends Entity {
     required: true,
   })
   name: string;
+  @property({
+    type: 'string',
+    required: true,
+  })
+  CPF: string;
+  @property({
+    type: 'string',
+    required: true,
+  })
+  telefone: string;
   constructor(data?: Partial<Userfront>) {
     super(data);
   }
